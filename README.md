@@ -32,5 +32,3 @@ A full-stack MERN application enabling users to connect, share updates, chat in 
 ➡️ [View Full Documentation](./GlobalConnect/README.md)
 
 ---
-
-*More projects coming soon...*
