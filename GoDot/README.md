@@ -1,6 +1,11 @@
 # 3D Exploration (Godot)
 
-A 3D prototype built in Godot featuring player movement, physics collision, procedural object spawning, and basic lighting and shadows.
+A lightweight 3D gameplay prototype developed in Godot demonstrating procedural object spawning, player navigation, collision systems, and real-time lighting workflows.
+
+## Demo Video
+Short gameplay demo showcasing movement and collisions.
+
+[Watch Demo](demo/demo.mp4)
 
 ## Features
 - **Player Movement**: Responsive movement controlled via keyboard input using Godot's `CharacterBody3D`.
