@@ -2,10 +2,10 @@
 
 A lightweight 3D gameplay prototype developed in Godot demonstrating procedural object spawning, player navigation, collision systems, and real-time lighting workflows.
 
-## Demo Video
+## Demo
 Short gameplay demo showcasing movement and collisions.
 
-[Watch Gameplay Demo](https://youtu.be/xKlC9h3mJRQ)
+![Gameplay Demo](demo/demo.gif)
 
 ## Features
 - **Player Movement**: Responsive movement controlled via keyboard input using Godot's `CharacterBody3D`.
@@ -15,6 +15,10 @@ Short gameplay demo showcasing movement and collisions.
 
 ## Controls
 - **WASD / Arrow Keys**: Move player
+
+## Tech Stack
+- **Engine**: Godot Engine
+- **Language**: GDScript
 
 ## Screenshots
 
@@ -33,6 +37,5 @@ Short gameplay demo showcasing movement and collisions.
 ### Real-Time Shadows
 ![Shadows](screenshots/shadow.png)
 
-## Tech Stack
-- **Engine**: Godot Engine
-- **Language**: GDScript
+
+
