@@ -5,7 +5,7 @@ A lightweight 3D gameplay prototype developed in Godot demonstrating procedural 
 ## Demo Video
 Short gameplay demo showcasing movement and collisions.
 
-[Watch Demo](demo/demo.mp4)
+<video src="demo/demo.mp4" controls width="100%"></video>
 
 ## Features
 - **Player Movement**: Responsive movement controlled via keyboard input using Godot's `CharacterBody3D`.
