@@ -1,0 +1,31 @@
+[gd_scene format=3 uid="uid://c4shbguct3oow"]
+
+[ext_resource type="Script" uid="uid://cunm36wprs5l3" path="res://scenes/player.gd" id="1_o5qli"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_sgp6g"]
+size = Vector3(20, 1, 20)
+
+[sub_resource type="BoxMesh" id="BoxMesh_o5qli"]
+size = Vector3(1, 2, 1)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_0wfyh"]
+
+[node name="Main" type="Node3D" unique_id=1071486684]
+
+[node name="Ground" type="MeshInstance3D" parent="." unique_id=204378265]
+mesh = SubResource("BoxMesh_sgp6g")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=721744464]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.0742869, 0.49980485, 0.27575254)
+
+[node name="Camera3D" type="Camera3D" parent="." unique_id=2088940675]
+transform = Transform3D(1, 0, 0, 0, 0.90630776, 0.42261827, 0, -0.42261827, 0.90630776, 0, 8, 12)
+
+[node name="Player" type="CharacterBody3D" parent="." unique_id=313342364]
+script = ExtResource("1_o5qli")
+
+[node name="PlayerMesh" type="MeshInstance3D" parent="Player" unique_id=1240678315]
+mesh = SubResource("BoxMesh_o5qli")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Player" unique_id=828166855]
+shape = SubResource("BoxShape3D_0wfyh")
